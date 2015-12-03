@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ripple.cpp" />
+    <ClCompile Include="sign.cpp" />
+    <ClCompile Include="aesCrypter.cpp" />
+    <ClCompile Include="ByteOrder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base58.h" />
+    <ClInclude Include="bignum.h" />
+    <ClInclude Include="BitcoinUtil.h" />
+    <ClInclude Include="key.h" />
+    <ClInclude Include="RippleAddress.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="uint256.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="ripple.h" />
+    <ClInclude Include="aesCrypter.h" />
+    <ClInclude Include="ByteOrder.h" />
+  </ItemGroup>
+</Project>
